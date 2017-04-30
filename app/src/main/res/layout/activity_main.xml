@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.uddishverma22.nasaapps.MainActivity">
+
+   <me.itangqi.waveloadingview.WaveLoadingView
+       android:id="@+id/wave"
+       android:padding="20dp"
+       android:layout_width="350dp"
+       android:layout_height="350dp"
+       app:wlv_borderColor="@color/green"
+       app:wlv_borderWidth="4dp"
+       android:layout_gravity="center"
+       app:wlv_progressValue="20"
+       app:wlv_shapeType="circle"
+       android:layout_centerHorizontal="true"
+       android:background="@drawable/tree_green"
+       app:wlv_triangle_direction="north"
+       app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+       app:wlv_titleCenterStrokeWidth="3dp"
+       app:wlv_titleCenterColor="@android:color/white"
+       app:wlv_titleCenterSize="24sp"
+       app:wlv_waveAmplitude="50"
+       app:wlv_waveColor="#6EB3F2" />
+
+   <TextView
+       android:layout_margin="20dp"
+       android:textAppearance="?android:textAppearanceLarge"
+       android:layout_alignParentBottom="true"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Your Soil is Dry"/>
+
+</RelativeLayout>
